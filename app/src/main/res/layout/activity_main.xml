@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="171dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="28dp"
+        android:text="Sign Up"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Fullname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText"
+        tools:text="@string/Sign_up" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="@+id/Fullname"
+        app:layout_constraintTop_toBottomOf="@+id/Fullname" />
+
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/pass2"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="@+id/Pasword"
+        app:layout_constraintTop_toBottomOf="@+id/Pasword" />
+
+    <EditText
+        android:id="@+id/Pasword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="@+id/Emil"
+        app:layout_constraintTop_toBottomOf="@+id/Emil" />
+
+    <EditText
+        android:id="@+id/Fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Emil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="@+id/Username"
+        app:layout_constraintTop_toBottomOf="@+id/Username" />
+
+    <Button
+        android:id="@+id/sing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sign Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repass"
+        tools:ignore="HardcodedText"
+        tools:text="@string/Sign_up" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="84dp"
+        android:text="already a member? sign in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText"
+        tools:text="@string/login" />
+</androidx.constraintlayout.widget.ConstraintLayout>

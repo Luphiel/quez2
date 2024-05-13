@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BDZ Kape</string>
+    <string name="Sign">Sign Up</string>
+    <string name="Sign2">Im waiting for you, please enter your detail</string>
+    <string name="full_name">full name </string>
+    <string name="name">Username, Email or Phone Number</string>
+    <string name="email">email</string>
+    <string name="pass">password</string>
+    <string name="pass2">retype password</string>
+    <string name="Sign_up">Sign Up</string>
+    <string name="Sign_up2">or sign up with </string>
+    <string name="login">Already a member? sign in</string>
+    <string name="log">Login</string>
+    <string name="forget_pass">Forget password?</string>
+    <string name="not_mem">Dont have an acc? Signup</string>
+    <string name="dont">Don\'t have an account ?</string>
+    <string name="user">Username</string>
+    <string name="password">Password</string>
+    <string name="Hi">Hi!</string>
+    <string name="Welcome">Hi!</string>
+    <string name="BDZ">BDZ KAPE</string>
+    <string name="sgnup">Dont have an acc? Signup</string>
+
+    <string-array name="cuffee">
+        <item>Caramel Machhaiato </item>
+        <item> Spanish latte</item>
+        <item> sea salt </item>
+        <item> 3 in 1 </item>
+        <item> Macha Machette</item>
+    </string-array>
+
+</resources>

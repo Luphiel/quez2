@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="417dp"
+        android:layout_height="103dp"
+        app:cardBackgroundColor="@color/biege"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="422dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="@+id/write"
+            app:layout_constraintTop_toBottomOf="@+id/write">
+
+            <TextView
+                android:id="@+id/Like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginBottom="8dp"
+                android:text="Like"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/Comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="105dp"
+                android:layout_marginBottom="8dp"
+                android:text="share"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Share"
+                app:layout_constraintStart_toStartOf="@+id/write"
+                app:layout_constraintTop_toBottomOf="@+id/write" />
+
+            <TextView
+                android:id="@+id/Share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="58dp"
+                android:layout_marginBottom="8dp"
+                android:text="share"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024-05-09"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.108"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.225" />
+
+            <TextView
+                android:id="@+id/write"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="35dp"
+                android:text="sample text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.315"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

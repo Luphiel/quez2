@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1083111057922",
+    "project_id": "quiz2-f00a3",
+    "storage_bucket": "quiz2-f00a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083111057922:android:d4e46267f833af49e8151b",
+        "android_client_info": {
+          "package_name": "com.example.quez2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr3OqanIFQQ7x60pxx97EwOTXgoGicey0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
